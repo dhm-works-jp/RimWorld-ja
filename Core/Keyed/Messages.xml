@@ -823,9 +823,4 @@
 
   <!-- EN: Cannot skip: Refugee -->
   <MessageLodgersCantFarskip>スキップできない: 難民</MessageLodgersCantFarskip>
-
-  <!-- UNUSED -->
-  <MessageRitualNeedsAtLeastOneRolePawn>{0}が必要です.</MessageRitualNeedsAtLeastOneRolePawn>
-  <MessageRitualNeedsAtLeastNumRolePawn>最低でも{1}人の{0}が必要です.</MessageRitualNeedsAtLeastNumRolePawn>
-
 </LanguageData>

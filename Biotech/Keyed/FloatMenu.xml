@@ -165,8 +165,4 @@
   <!-- EN: Cannot take to safe location -->
   <CannotCarryToSafePlace>安全な場所に運べない</CannotCarryToSafePlace>
 
-  <!-- UNUSED -->
-  <CannotStudy>研究できない</CannotStudy>
-  <AlreadyStudied>すでに研究した</AlreadyStudied>
-
 </LanguageData>

@@ -21,8 +21,7 @@
   <!-- EN: deploy flare -->
   <Apparel_DisruptorFlarePack.verbs.deploy_flare.label>フレアを展開</Apparel_DisruptorFlarePack.verbs.deploy_flare.label>
   
-  <!-- UNUSED -->
-  <Apparel_DisruptorFlarePack.comps.CompApparelVerbOwner_Charged.chargeNoun>チャージ</Apparel_DisruptorFlarePack.comps.CompApparelVerbOwner_Charged.chargeNoun>
+  
   
   <!-- EN: turret pack -->
   <Apparel_PackTurret.label>タレットパック</Apparel_PackTurret.label>

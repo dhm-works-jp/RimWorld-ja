@@ -665,9 +665,5 @@
   <!-- Limited use count action -->
   <!-- EN: No uses left. -->
   <CommandNoUsesLeft>使用回数が切れています.</CommandNoUsesLeft>
-  
-  <!-- UNUSED -->
-  <CommandRenameZoneLabel>名前の変更</CommandRenameZoneLabel>
-  <CommandRenameZoneDesc>このゾーンの 名前を 変更します.</CommandRenameZoneDesc>
 
 </LanguageData>

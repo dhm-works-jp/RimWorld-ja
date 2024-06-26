@@ -4,63 +4,100 @@
   <!-- Mechanitor -->
   <!-- EN: Mech(s) gone feral -->
   <LetterLabelMechsFeral>野生化したメカ</LetterLabelMechsFeral>
-  <!-- EN: Some mech(s) which were wandering without an overseer have linked with ancient planet-wide mech control signals. They have joined {0} and become hostile, and appear to be trying to fight their way off the map.\n\nFeral mechanoids cannot be resurrected at a gestator when killed.\n\nThese mechs are involved:\n\n{1} -->
-  <LetterMechsFeral>管理者がおらず彷徨っていた何対かのメカが,惑星全体を覆う古代のメカ制御信号とリンクしています.彼らは{0}に参加し,敵対的になり,マップを立ち去って戦闘を行おうとしています.\n\n野生のメカノイドは破壊されても培養槽で修理することができません.\n\n以下のメカが関与しています:\n\n{1}</LetterMechsFeral>
+  <!-- EN: Some mech(s) which were wandering without an overseer have linked with ancient
+  planet-wide mech control signals. They have joined {0} and become hostile, and appear to be trying
+  to fight their way off the map.\n\nFeral mechanoids cannot be resurrected at a gestator when
+  killed.\n\nThese mechs are involved:\n\n{1} -->
+  <LetterMechsFeral>
+    管理者がおらず彷徨っていた何対かのメカが,惑星全体を覆う古代のメカ制御信号とリンクしています.彼らは{0}に参加し,敵対的になり,マップを立ち去って戦闘を行おうとしています.\n\n野生のメカノイドは破壊されても培養槽で修理することができません.\n\n以下のメカが関与しています:\n\n{1}</LetterMechsFeral>
   <!-- EN: Mechlink installed -->
   <LetterLabelMechlinkInstalled>メカリンクをインストール</LetterLabelMechlinkInstalled>
-  <!-- EN: {PAWN_labelShort} has installed a mechlink! {PAWN_pronoun} is now a mechanitor and can create and control mechanoids.\n\nResearch basic mechtech to get started.\n\n(*SectionTitle)Creating mechs:(/SectionTitle) Your mechanitor can create mechs at a production building called a mech gestator.\n\n(*SectionTitle)About bandwidth:(/SectionTitle) Mechanitors can control as many mechs as their total bandwidth allows. Select {PAWN_labelShort} and look at {PAWN_possessive} 'Bandwidth' readout to see how much bandwidth {PAWN_pronoun} is currently using and how much {PAWN_pronoun} has available. Bandwidth can be increased with certain apparel and by building band node buildings.\n\n(*SectionTitle)About control groups:(/SectionTitle) Mechanitors control mechs in groups. Each control group can be set to one of these modes:\n\n- Work\n- Escort\n- Recharge\n- Dormant self-charge\n\nTo learn more about what each mode does, select the work mode icon on one of {PAWN_labelShort}'s control groups and hover over the different work orders. The maximum number of control groups can be increased with apparel and implants.\n\n(*SectionTitle)About threat calling:(/SectionTitle) Mechanitors can signal ancient leader mechs to attack in order to obtain rare items from them. You must do this to improve your mechanitor past certain limits, but beware the danger. -->
-  <LetterMechlinkInstalled>{PAWN_labelShort}がメカリンクをインストールしました!{PAWN_pronoun}はメカニターになり,メカノイドの作成と制御ができるようになりました.\n\nこれを行うには,機械技術基本を研究してください.\n\n(*SectionTitle)メカの作成:(/SectionTitle)メカニターはメカ培養槽と呼ばれる製造装置でメカを作成できます.\n\n(*SectionTitle)帯域幅について:(/SectionTitle)メカニターは総帯域幅が許す限りのメカを制御できます.{PAWN_labelShort}を選択し,'帯域幅'を読み取り,現在使用している帯域幅と使用可能な帯域幅を確認してください.帯域幅は,特定の衣服やバンドノードを建築することで増やすことができます.\n\n(*SectionTitle)管理グループについて:(/SectionTitle)メカニターはグループ単位でメカを制御します.各管理グループは以下のモードに設定できます:\n\n-仕事\n-護衛\n-充電\n-休眠して自己充電\n\n各モードの詳細については,{PAWN_labelShort}の管理グループにある作業モードアイコンを選択し,さまざまな作業指示にカーソルを合わせてください.管理グループの最大数は衣服とインプラントで増やすことができます.\n\n(*SectionTitle)脅威の呼び出しについて:(/SectionTitle)メカニターはレアアイテムを入手するために,古代のメカリーダーを呼び出して攻撃することができます.メカニターを限界を超えて改善するにはこれを行う必要がありますが,その危険について注意してください.</LetterMechlinkInstalled>
+  <!-- EN: {PAWN_labelShort} has installed a mechlink! {PAWN_pronoun} is now a mechanitor and can
+  create and control mechanoids.\n\nResearch basic mechtech to get
+  started.\n\n(*SectionTitle)Creating mechs:(/SectionTitle) Your mechanitor can create mechs at a
+  production building called a mech gestator.\n\n(*SectionTitle)About bandwidth:(/SectionTitle)
+  Mechanitors can control as many mechs as their total bandwidth allows. Select {PAWN_labelShort}
+  and look at {PAWN_possessive} 'Bandwidth' readout to see how much bandwidth {PAWN_pronoun} is
+  currently using and how much {PAWN_pronoun} has available. Bandwidth can be increased with certain
+  apparel and by building band node buildings.\n\n(*SectionTitle)About control
+  groups:(/SectionTitle) Mechanitors control mechs in groups. Each control group can be set to one
+  of these modes:\n\n- Work\n- Escort\n- Recharge\n- Dormant self-charge\n\nTo learn more about what
+  each mode does, select the work mode icon on one of {PAWN_labelShort}'s control groups and hover
+  over the different work orders. The maximum number of control groups can be increased with apparel
+  and implants.\n\n(*SectionTitle)About threat calling:(/SectionTitle) Mechanitors can signal
+  ancient leader mechs to attack in order to obtain rare items from them. You must do this to
+  improve your mechanitor past certain limits, but beware the danger. -->
+  <LetterMechlinkInstalled>
+    {PAWN_labelShort}がメカリンクをインストールしました!{PAWN_pronoun}はメカニターになり,メカノイドの作成と制御ができるようになりました.\n\nこれを行うには,機械技術基本を研究してください.\n\n(*SectionTitle)メカの作成:(/SectionTitle)メカニターはメカ培養槽と呼ばれる製造装置でメカを作成できます.\n\n(*SectionTitle)帯域幅について:(/SectionTitle)メカニターは総帯域幅が許す限りのメカを制御できます.{PAWN_labelShort}を選択し,'帯域幅'を読み取り,現在使用している帯域幅と使用可能な帯域幅を確認してください.帯域幅は,特定の衣服やバンドノードを建築することで増やすことができます.\n\n(*SectionTitle)管理グループについて:(/SectionTitle)メカニターはグループ単位でメカを制御します.各管理グループは以下のモードに設定できます:\n\n-仕事\n-護衛\n-充電\n-休眠して自己充電\n\n各モードの詳細については,{PAWN_labelShort}の管理グループにある作業モードアイコンを選択し,さまざまな作業指示にカーソルを合わせてください.管理グループの最大数は衣服とインプラントで増やすことができます.\n\n(*SectionTitle)脅威の呼び出しについて:(/SectionTitle)メカニターはレアアイテムを入手するために,古代のメカリーダーを呼び出して攻撃することができます.メカニターを限界を超えて改善するにはこれを行う必要がありますが,その危険について注意してください.</LetterMechlinkInstalled>
 
   <!-- EN: This happened because of -->
   <MentalStateReason_Gene>次の理由で発生</MentalStateReason_Gene>
 
   <!-- EN: {0} summoned -->
   <LetterLabelBossgroupSummoned>{0}を呼び込んだ</LetterLabelBossgroupSummoned>
-  <!-- EN: Attracted by your mech-band signals, an ultra-heavy mech from {0} will arrive soon. Be prepared. -->
+  <!-- EN: Attracted by your mech-band signals, an ultra-heavy mech from {0} will arrive soon. Be
+  prepared. -->
   <LetterBossgroupSummoned>メカ帯域信号に引き付けられて,{0}にいた超大型級メカがまもなく到着します.準備してください.</LetterBossgroupSummoned>
 
   <!-- EN: {0} arrived -->
   <LetterLabelBossgroupArrived>{0}が到着</LetterLabelBossgroupArrived>
-  <!-- EN: An ultra-heavy mech from {0} has come to eradicate you, along with escorts.\n\n{1}\n\nThe assault group is composed of the following {3}:\n\n{4}\n\nThey will prepare for a while before attacking. -->
-  <LetterBossgroupArrived>{0}にいた超大型メカが護衛と共にコロニーを根絶しに来ました.\n\n{1}\n\n攻撃グループは以下の{3}で構成されています:\n\n{4}\n\n彼らは攻撃する前にしばらく準備をします.</LetterBossgroupArrived>
+  <!-- EN: An ultra-heavy mech from {0} has come to eradicate you, along with escorts.\n\n{1}\n\nThe
+  assault group is composed of the following {3}:\n\n{4}\n\nThey will prepare for a while before
+  attacking. -->
+  <LetterBossgroupArrived>
+    {0}にいた超大型メカが護衛と共にコロニーを根絶しに来ました.\n\n{1}\n\n攻撃グループは以下の{3}で構成されています:\n\n{4}\n\n彼らは攻撃する前にしばらく準備をします.</LetterBossgroupArrived>
 
   <!-- EN: Summon {LEADER_label} available -->
   <LetterLabelCommsConsoleSpawned>{LEADER_label}との戦闘が可能</LetterLabelCommsConsoleSpawned>
-  <!-- EN: A mechanitor can use the {PARENT_label} to summon a dangerous and hostile {LEADER_label} mechanoid. Be prepared, {LEADER_label} mechanoids are extremely powerful.\n\nIf you defeat the {LEADER_label}, it will drop the following items:\n\n{REWARDSLIST} -->
-  <LetterCommsConsoleSpawned>メカニターは{PARENT_label}を使用することで,危険で敵対的な{LEADER_label}メカノイドを呼び出せます.{LEADER_label}メカノイドは非常に強力です.\n\n{LEADER_label}を倒すと以下のアイテムをドロップします:\n\n{REWARDSLIST}</LetterCommsConsoleSpawned>
+  <!-- EN: A mechanitor can use the {PARENT_label} to summon a dangerous and hostile {LEADER_label}
+  mechanoid. Be prepared, {LEADER_label} mechanoids are extremely powerful.\n\nIf you defeat the
+  {LEADER_label}, it will drop the following items:\n\n{REWARDSLIST} -->
+  <LetterCommsConsoleSpawned>
+    メカニターは{PARENT_label}を使用することで,危険で敵対的な{LEADER_label}メカノイドを呼び出せます.{LEADER_label}メカノイドは非常に強力です.\n\n{LEADER_label}を倒すと以下のアイテムをドロップします:\n\n{REWARDSLIST}</LetterCommsConsoleSpawned>
 
   <!-- EN: Summon {LEADER_label} possible -->
   <LetterLabelBossgroupCallerUnlocked>{LEADER_label}の呼び出しが可能</LetterLabelBossgroupCallerUnlocked>
-  <!-- EN: You can now build a {PARENT_label} which a mechanitor can use to summon a {LEADER_label}. If you defeat the {LEADER_label}, it will drop the following items:\n\n{REWARDSLIST} -->
-  <LetterBossgroupCallerUnlocked>メカニターが{LEADER_label}を呼び出すために使用する,{PARENT_label}を作成できるようになりました.{LEADER_label}を倒すと以下のアイテムをドロップします:\n\n{REWARDSLIST}</LetterBossgroupCallerUnlocked>
+  <!-- EN: You can now build a {PARENT_label} which a mechanitor can use to summon a {LEADER_label}.
+  If you defeat the {LEADER_label}, it will drop the following items:\n\n{REWARDSLIST} -->
+  <LetterBossgroupCallerUnlocked>
+    メカニターが{LEADER_label}を呼び出すために使用する,{PARENT_label}を作成できるようになりました.{LEADER_label}を倒すと以下のアイテムをドロップします:\n\n{REWARDSLIST}</LetterBossgroupCallerUnlocked>
 
   <!-- EN: {PAWN_nameDef}'s mechlink available -->
   <LetterLabelMechanitorCasketOpened>{PAWN_nameDef}のメカリンクが利用可能</LetterLabelMechanitorCasketOpened>
-  <!-- EN: You have found the corpse of an ancient mechanitor!\n\nExtract {PAWN_possessive} mechlink by selecting a colonist and right-clicking the corpse. -->
-  <LetterMechanitorCasketOpened>古代のメカニターの死骸を発見しました!\n\n入植者を選択して死骸を右クリックし,メカリンクを取り出してください.</LetterMechanitorCasketOpened>
+  <!-- EN: You have found the corpse of an ancient mechanitor!\n\nExtract {PAWN_possessive} mechlink
+  by selecting a colonist and right-clicking the corpse. -->
+  <LetterMechanitorCasketOpened>
+    古代のメカニターの死骸を発見しました!\n\n入植者を選択して死骸を右クリックし,{PAWN_possessive}のメカリンクを取り出してください.</LetterMechanitorCasketOpened>
   <!-- EN: Mechanitor casket found -->
   <LetterLabelMechanitorCasketFound>メカニターのカプセルを発見</LetterLabelMechanitorCasketFound>
   <!-- EN: You have discovered a mechanitor's cryptosleep casket!\n\nOpen it to find them inside. -->
   <LetterMechanitorCasketFound>メカニターの冬眠カプセルを発見しました!\n\n開けて中身を見てみましょう.</LetterMechanitorCasketFound>
-  
+
   <!-- Pawns lost because map closed (including mechs) -->
-  <!-- EN: Your caravan has been lost. The following people, animals and mechanoids have been lost with it -->
+  <!-- EN: Your caravan has been lost. The following people, animals and mechanoids have been lost
+  with it -->
   <LetterPawnsLostIncMechsBecauseMapClosed_Caravan>キャラバン隊は全滅し,次の人々,家畜,メカノイドを失いました</LetterPawnsLostIncMechsBecauseMapClosed_Caravan>
   <!-- EN: The following people, animals and mechanoids have been abandoned -->
   <LetterPawnsLostIncMechsBecauseMapClosed_Home>次の人々,家畜,メカノイドは放棄されました</LetterPawnsLostIncMechsBecauseMapClosed_Home>
-  
+
 
   <!-- Children -->
   <!-- EN: {0_nameDef} became a child -->
   <LetterLabelBecameChild>{0_nameDef}が子供になった</LetterLabelBecameChild>
   <!-- EN: {0_nameDef} became an adult -->
   <LetterLabelBecameAdult>{0_nameDef}が大人になった</LetterLabelBecameAdult>
-  <!-- EN: Baby {0_nameDef} has grown up and become a child! {0_pronoun} is now old enough to do the following work: -->
+  <!-- EN: Baby {0_nameDef} has grown up and become a child! {0_pronoun} is now old enough to do the
+  following work: -->
   <LetterBecameChild>赤ん坊だった{0_nameDef}は成長し,子供になりました!{0_pronoun}は次の作業を行うのに十分な年齢になりました:</LetterBecameChild>
-  <!-- EN: Children can do various types of work. As they get older, they become able to do more work types.\n\nThey also do various child-specific recreational activities.\n\nChildren need to wear special child-sized apparel. -->
-  <LetterBecameChildChanges>子供はさまざまな種類の仕事を行うことができます.年をとるにつれて,より多くの種類の仕事を行えるようになります.\n\nまた,子供向けのさまざまな娯楽活動も行います.\n\n子供は特別な子供サイズの衣服を着る必要があります.</LetterBecameChildChanges>
-  <!-- EN: By tradition {0_nameDef}, {0_parentage}, is a {0_legalStatus}, but exceptions can be made....  Should {0_nameDef} remain a {0_legalStatus}? -->
-  <LetterChildLegalStatus>{0_parentage}である{0_nameDef}は慣例に従い{0_legalStatus}ですが,例外を設けることもできます....{0_nameDef}を{0_legalStatus}のままにしますか?</LetterChildLegalStatus>
+  <!-- EN: Children can do various types of work. As they get older, they become able to do more
+  work types.\n\nThey also do various child-specific recreational activities.\n\nChildren need to
+  wear special child-sized apparel. -->
+  <LetterBecameChildChanges>
+    子供はさまざまな種類の仕事を行うことができます.年をとるにつれて,より多くの種類の仕事を行えるようになります.\n\nまた,子供向けのさまざまな娯楽活動も行います.\n\n子供は特別な子供サイズの衣服を着る必要があります.</LetterBecameChildChanges>
+  <!-- EN: By tradition {0_nameDef}, {0_parentage}, is a {0_legalStatus}, but exceptions can be
+  made....  Should {0_nameDef} remain a {0_legalStatus}? -->
+  <LetterChildLegalStatus>
+    {0_parentage}である{0_nameDef}は慣例に従い{0_legalStatus}ですが,例外を設けることもできます....{0_nameDef}を{0_legalStatus}のままにしますか?</LetterChildLegalStatus>
   <!-- EN: {0_labelShort} has decided to become a follower of the ideoligion {1_name}. -->
   <LetterChildFollowIdeo>{0_labelShort}は思想'{1_name}'の信奉者になることを決めました.</LetterChildFollowIdeo>
   <!-- EN: {0_nameDef}'s slave status has already changed since {0_possessive} birthday. -->
@@ -73,35 +110,51 @@
   <RemainX>{0}のままにする</RemainX>
   <!-- EN: {BABY_nameDef} adopted -->
   <LetterLabelAdopted>{BABY_nameDef}が養子に</LetterLabelAdopted>
-  <!-- EN: {BABY_nameDef}, a baby, has been adopted by your colony. You may want to assign colonists to the 'childcare' work type to take care of {BABY_objective}. -->
-  <LetterTextAdopted>{BABY_nameDef}という名の赤ん坊がコロニーに養子として出されました.入植者に'育児'の仕事を割り当てて,{BABY_possessive}世話をすることをお勧めします.</LetterTextAdopted>
+  <!-- EN: {BABY_nameDef}, a baby, has been adopted by your colony. You may want to assign colonists
+  to the 'childcare' work type to take care of {BABY_objective}. -->
+  <LetterTextAdopted>
+    {BABY_nameDef}という名の赤ん坊がコロニーに養子として出されました.入植者に'育児'の仕事を割り当てて,{BABY_possessive}世話をすることをお勧めします.</LetterTextAdopted>
 
   <!-- EN: {0_nameDef}'s baby prep -->
   <LetterLabelThirdTrimester>{0_nameDef}の出産準備</LetterLabelThirdTrimester>
-  <!-- EN: {0_nameDef} is due to give birth in less than 6 days. You can prepare for the baby:\n\n- Build a birth room with a clean floor and good bed.\n- Get a skilled doctor ready.\n- In the work tab, assign at least one person to childcare\n- Prepare a food source for the baby. {0_nameDef} can breastfeed the baby, or you can feed them baby food, milk, or insect jelly.\n- Build a crib. High quality cribs will make a baby happy.\n\nYou can make baby food at a stove or campfire. -->
-  <LetterTextThirdTrimester>{0_nameDef}は6日以内に出産予定です.赤ん坊の出産に備えることができます:\n\n-床が清潔で寝心地の良い分娩室を作ります.\n-熟練した医師を用意します.\n-優先順位タブで,少なくとも1人を育児に割り当てます.\n-赤ん坊のための食べ物を準備します.{0_nameDef}は赤ん坊に母乳をあげたり,離乳食,ミルク,インセクトゼリーをあげることができます.\n-ベビーベッドを作りましょう.高品質のベビーベッドは赤ん坊を幸せにします.\n\nカマドやコンロ,焚き火から離乳食を作ることができます.</LetterTextThirdTrimester>
+  <!-- EN: {0_nameDef} is due to give birth in less than 6 days. You can prepare for the baby:\n\n-
+  Build a birth room with a clean floor and good bed.\n- Get a skilled doctor ready.\n- In the work
+  tab, assign at least one person to childcare\n- Prepare a food source for the baby. {0_nameDef}
+  can breastfeed the baby, or you can feed them baby food, milk, or insect jelly.\n- Build a crib.
+  High quality cribs will make a baby happy.\n\nYou can make baby food at a stove or campfire. -->
+  <LetterTextThirdTrimester>
+    {0_nameDef}は6日以内に出産予定です.赤ん坊の出産に備えることができます:\n\n-床が清潔で寝心地の良い分娩室を作ります.\n-熟練した医師を用意します.\n-優先順位タブで,少なくとも1人を育児に割り当てます.\n-赤ん坊のための食べ物を準備します.{0_nameDef}は赤ん坊に母乳をあげたり,離乳食,ミルク,インセクトゼリーをあげることができます.\n-ベビーベッドを作りましょう.高品質のベビーベッドは赤ん坊を幸せにします.\n\nカマドやコンロ,焚き火から離乳食を作ることができます.</LetterTextThirdTrimester>
 
   <!-- EN: {0} vat birth -->
   <LetterVatBirth>胚の成長: {0}</LetterVatBirth>
-  <!-- EN: The embryo of {0_nameDef} and {1_nameDef} has finished gestating in a growth vat and has become a healthy baby! -->
+  <!-- EN: The embryo of {0_nameDef} and {1_nameDef} has finished gestating in a growth vat and has
+  become a healthy baby! -->
   <LetterVatHealthyBaby>{0_nameDef}と{1_nameDef}の胚は人工生育槽での成長を終え,健康な赤ん坊になりました!</LetterVatHealthyBaby>
   <!-- EN: An embryo has finished gestating in a growth vat and become a healthy baby! -->
   <LetterVatHealthyBabyNoParents>胚が人工生育槽での成長を終え,健康な赤ん坊になりました!</LetterVatHealthyBabyNoParents>
-  <!-- EN: The embryo of {0_nameDef} and {1_nameDef} has finished gestating in a growth vat and has become a baby. Unfortunately, the baby is sick. -->
+  <!-- EN: The embryo of {0_nameDef} and {1_nameDef} has finished gestating in a growth vat and has
+  become a baby. Unfortunately, the baby is sick. -->
   <LetterVatInfantIllness>{0_nameDef}と{1_nameDef}の胚は人工生育槽での成長を終え,赤ん坊になりました.残念ながら,赤ん坊は病気です.</LetterVatInfantIllness>
-  <!-- EN: An embryo has finished gestating in a growth vat and has become a baby. Unfortunately, the baby is sick. -->
+  <!-- EN: An embryo has finished gestating in a growth vat and has become a baby. Unfortunately,
+  the baby is sick. -->
   <LetterVatInfantIllnessNoParents>胚が人工生育槽での成長を終え,赤ん坊になりました.残念ながら,赤ん坊は病気です.</LetterVatInfantIllnessNoParents>
-  <!-- EN: The baby formed in a growth vat from the embryo of {0_nameDef} and {1_nameDef} was stillborn. -->
+  <!-- EN: The baby formed in a growth vat from the embryo of {0_nameDef} and {1_nameDef} was
+  stillborn. -->
   <LetterVatStillborn>{0_nameDef}と{1_nameDef}の胚から人工生育槽で生育された赤ん坊は,死産になりました.</LetterVatStillborn>
   <!-- EN: The baby formed in a growth vat was stillborn. -->
   <LetterVatSillbornNoParents>人工生育槽で生育された赤ん坊は,死産になりました.</LetterVatSillbornNoParents>
   <!-- EN: {0_labelShort} in labor! -->
   <LetterColonistPregnancyLaborLabel>{0_labelShort}が分娩中です!</LetterColonistPregnancyLaborLabel>
-  <!-- EN: {0_labelShort} is about to give birth! She's going to have contractions for a few hours before delivering a baby. The labor may go through several stages of different levels of difficulty and danger.\n\nTo improve the baby's chances, gather a doctor and others to help with the birth. Select {0_labelShort} and press 'Gather for birth' to start the procedure. -->
-  <LetterColonistPregnancyLabor>{0_labelShort}がもうすぐ出産します!出産の数時間前から陣痛が始まります.分娩は,さまざまな難易度と危険性を持ついくつかの段階を経る場合があります.\n\n赤ん坊が生まれる可能性を高めるに,医師や他の人を集めて出産を手伝ってください.{0_labelShort}を選択し,'出産のために集まる'を押して手順を開始します.</LetterColonistPregnancyLabor>
+  <!-- EN: {0_labelShort} is about to give birth! She's going to have contractions for a few hours
+  before delivering a baby. The labor may go through several stages of different levels of
+  difficulty and danger.\n\nTo improve the baby's chances, gather a doctor and others to help with
+  the birth. Select {0_labelShort} and press 'Gather for birth' to start the procedure. -->
+  <LetterColonistPregnancyLabor>
+    {0_labelShort}がもうすぐ出産します!出産の数時間前から陣痛が始まります.分娩は,さまざまな難易度と危険性を持ついくつかの段階を経る場合があります.\n\n赤ん坊が生まれる可能性を高めるに,医師や他の人を集めて出産を手伝ってください.{0_labelShort}を選択し,'出産のために集まる'を押して手順を開始します.</LetterColonistPregnancyLabor>
   <!-- EN: {0_labelShort} has died due to complications after giving birth. -->
   <LetterPartColonistDiedAfterChildbirth>{0_labelShort}さんは出産後の合併症で死亡しました.</LetterPartColonistDiedAfterChildbirth>
-  <!-- EN: The baby was created from in vitro fertilization and has the genetic makeup of {0_labelShort} and {1_labelShort}. -->
+  <!-- EN: The baby was created from in vitro fertilization and has the genetic makeup of
+  {0_labelShort} and {1_labelShort}. -->
   <LetterPartSurrogacy>赤ん坊は体外受精で作られ,{0_labelShort}と{1_labelShort}の遺伝子を持っています.</LetterPartSurrogacy>
   <!-- EN: The baby shows signs of genetic abnormalities due to inbreeding. -->
   <InbredBabyBorn>赤ん坊には近親交配による遺伝子異常の兆候が見られます.</InbredBabyBorn>
@@ -120,7 +173,8 @@
   <LetterPartLiveBirthNameDeadline>生後{0}まで変更可能です.</LetterPartLiveBirthNameDeadline>
   <!-- EN: Would you like to give the baby another name? -->
   <LetterPartStillbirthNameDeadline>赤ん坊に別の名前を付けますか?</LetterPartStillbirthNameDeadline>
-  <!-- EN: The baby was given the temporary name {0_nameFull}. You can change it as long as the baby is less than {1} old. -->
+  <!-- EN: The baby was given the temporary name {0_nameFull}. You can change it as long as the baby
+  is less than {1} old. -->
   <LetterPartNameBabyAdopt>赤ん坊は一時的に {0_nameFull}と名付けられました. {1}歳未満であれば変更可能です.</LetterPartNameBabyAdopt>
 
   <!-- EN: Growth moment for {PAWNNAME} -->
@@ -135,8 +189,12 @@
   <BirthdayPickPassions>{0_nameDef}のスキルを{1}つ選択し,情熱を高められます</BirthdayPickPassions>
   <!-- EN: Choose a trait for {0_nameDef} to gain -->
   <BirthdayPickTrait>{0_nameDef}に獲得させる特性を選択してください</BirthdayPickTrait>
-  <!-- EN: When this growth moment happened, {0_nameDef} was at growth tier {1}. Children at higher growth tiers get more trait and passion options to choose from, and more passions overall. Satisfying the learning need helps the child gain growth tiers faster. Growth tiers are reset after each growth moment. -->
-  <BirthdayGrowthTier>成長の瞬間が起きたときの{0_nameDef}の成長段階は{1}でした.成長段階は高いほど,より多くの特性と情熱の選択でき,全体的により多くの情熱を得ることができます.子供の成長段階をより早く獲得するためには,学習欲求を満たしましょう.成長段階は成長の瞬間を迎えるごとにリセットされます.</BirthdayGrowthTier>
+  <!-- EN: When this growth moment happened, {0_nameDef} was at growth tier {1}. Children at higher
+  growth tiers get more trait and passion options to choose from, and more passions overall.
+  Satisfying the learning need helps the child gain growth tiers faster. Growth tiers are reset
+  after each growth moment. -->
+  <BirthdayGrowthTier>
+    成長の瞬間が起きたときの{0_nameDef}の成長段階は{1}でした.成長段階は高いほど,より多くの特性と情熱の選択でき,全体的により多くの情熱を得ることができます.子供の成長段階をより早く獲得するためには,学習欲求を満たしましょう.成長段階は成長の瞬間を迎えるごとにリセットされます.</BirthdayGrowthTier>
   <!-- EN: Open this letter to choose how {0_nameDef} will grow. -->
   <BirthdayChooseHowPawnWillGrow>このレターを開き,{0_nameDef}がどのように成長するかを選択してください.</BirthdayChooseHowPawnWillGrow>
 
@@ -161,57 +219,92 @@
   <SelectPassionsPlural>情熱を{0}つ選択してください.</SelectPassionsPlural>
   <!-- EN: Later -->
   <Later>後で行う</Later>
-  
+
   <!-- EN: Mechlink available -->
   <LetterLabelMechlinkAvailable>メカリンクが利用可能</LetterLabelMechlinkAvailable>
-  <!-- EN: An opportunity to acquire the unique mechlink implant has become available via the quest '{0}'.\n\nInstalling a mechlink will turn a colonist into a mechanitor. Mechanitors can create, control, and manipulate mechanoids for use in work and in combat. -->
-  <LetterMechlinkAvailable>クエスト'{0}'を経て,独自のメカリンクインプラントを入手できるようになりました.\n\nメカリンクをインストールすると,入植者がメカニターになります.メカニターは仕事や戦闘を行うメカノイドを作成,制御,および操作できます.</LetterMechlinkAvailable>
+  <!-- EN: An opportunity to acquire the unique mechlink implant has become available via the quest
+  '{0}'.\n\nInstalling a mechlink will turn a colonist into a mechanitor. Mechanitors can create,
+  control, and manipulate mechanoids for use in work and in combat. -->
+  <LetterMechlinkAvailable>
+    クエスト'{0}'を経て,独自のメカリンクインプラントを入手できるようになりました.\n\nメカリンクをインストールすると,入植者がメカニターになります.メカニターは仕事や戦闘を行うメカノイドを作成,制御,および操作できます.</LetterMechlinkAvailable>
 
   <!-- Genes -->
   <!-- EN: Xenogerm implantation ordered -->
   <LetterLabelXenogermOrderedImplanted>異種胚移植オーダー</LetterLabelXenogermOrderedImplanted>
-  <!-- EN: You have ordered a xenogerm be implanted in {PAWN_nameDef}. This procedure requires a medical bed and {MEDICINENEEDED} medicine.{BEDINFO}{MEDICINEINFO}\n\nYou can cancel this procedure by going to {PAWN_nameDef}'s health -> operations tab. -->
-  <LetterXenogermOrderedImplanted>{PAWN_nameDef}への異種胚移植を命じました.これを行うには医療用ベッドと{MEDICINENEEDED}の薬が必要です.{BEDINFO}{MEDICINEINFO}\n\n{PAWN_nameDef}の健康タブから手術タブに移動すると,このオーダーをキャンセルできます.</LetterXenogermOrderedImplanted>
-  <!-- EN: \n\nYou do not have any medical beds available for {PAWN_nameDef}. Consider marking a bed as medical. -->
+  <!-- EN: You have ordered a xenogerm be implanted in {PAWN_nameDef}. This procedure requires a
+  medical bed and {MEDICINENEEDED} medicine.{BEDINFO}{MEDICINEINFO}\n\nYou can cancel this procedure
+  by going to {PAWN_nameDef}'s health -> operations tab. -->
+  <LetterXenogermOrderedImplanted>
+    {PAWN_nameDef}への異種胚移植を命じました.これを行うには医療用ベッドと{MEDICINENEEDED}の薬が必要です.{BEDINFO}{MEDICINEINFO}\n\n{PAWN_nameDef}の健康タブから手術タブに移動すると,このオーダーをキャンセルできます.</LetterXenogermOrderedImplanted>
+  <!-- EN: \n\nYou do not have any medical beds available for {PAWN_nameDef}. Consider marking a bed
+  as medical. -->
   <XenogermOrderedImplantedBedNeeded>\n\n{PAWN_nameDef}が利用できる医療用ベッドがありません.ベッドを医療用に設定してください.</XenogermOrderedImplantedBedNeeded>
-  <!-- EN: \n\nYou do not have enough medicine to implant the xenogerm. Implanting cannot begin until you get {MEDICINENEEDED} medicine. -->
-  <XenogermOrderedImplantedMedicineNeeded>\n\n異種胚を移植するのに十分な薬がありません.{MEDICINENEEDED}の薬が利用可能になるまで,移植を開始することはできません.</XenogermOrderedImplantedMedicineNeeded>
+  <!-- EN: \n\nYou do not have enough medicine to implant the xenogerm. Implanting cannot begin
+  until you get {MEDICINENEEDED} medicine. -->
+  <XenogermOrderedImplantedMedicineNeeded>
+    \n\n異種胚を移植するのに十分な薬がありません.{MEDICINENEEDED}の薬が利用可能になるまで,移植を開始することはできません.</XenogermOrderedImplantedMedicineNeeded>
   <!-- EN: Involuntary deathrest -->
   <LetterLabelInvoluntaryDeathrest>強制死眠</LetterLabelInvoluntaryDeathrest>
   <!-- EN: Regeneration coma -->
   <LetterLabelRegenerationComa>再生昏睡</LetterLabelRegenerationComa>
   <!-- EN: {PAWN_nameDef}'s deathless gene has prevented {PAWN_objective} from dying. {HEDIFFINFO} -->
-  <LetterTextInvoluntaryDeathrestOrComa>{PAWN_nameDef}の不死の遺伝子が死を防ぎました.{HDEFINFO}</LetterTextInvoluntaryDeathrestOrComa>
+  <LetterTextInvoluntaryDeathrestOrComa>{PAWN_nameDef}の不死の遺伝子が{PAWN_objective}の死を防ぎました.{HEDIFFINFO}</LetterTextInvoluntaryDeathrestOrComa>
   <!-- EN: Instead, {PAWN_pronoun} has fallen into a deathrest. -->
   <LetterTextDeathrest>代わりに,{PAWN_pronoun}は死眠に陥りました.</LetterTextDeathrest>
   <!-- EN: Instead, {PAWN_pronoun} has fallen into a regeneration coma. -->
   <LetterTextRegenerationComa>代わりに{PAWN_pronoun}は再生昏睡状態に陥りました.</LetterTextRegenerationComa>
-  <!-- EN: Due to the neural shock of traumatic deathrest, {PAWN_nameDef} has lost {XPLOSS} XP in {PAWN_possessive} {SKILL} skill. -->
+  <!-- EN: Due to the neural shock of traumatic deathrest, {PAWN_nameDef} has lost {XPLOSS} XP in
+  {PAWN_possessive} {SKILL} skill. -->
   <DeathrestLostSkill>トラウマ的な死眠による神経ショックにより,{PAWN_nameDef}は{SKILL}スキルを{XPLOSS}XP失いました.</DeathrestLostSkill>
   <!-- EN: Lethal damage taken. -->
   <DeathrestLethalDamage>致命的なダメージを受けました.</DeathrestLethalDamage>
 
   <!-- EN: Xenogerm implantation -->
   <LetterLabelSanguophageWaitingToReimplant>異種胚移植</LetterLabelSanguophageWaitingToReimplant>
-  <!-- EN: As thanks for allowing {PAWN_objective} and {PAWN_possessive} fellow sanguophages meet here, {PAWN_nameDef} is willing to share a copy of {PAWN_possessive} xenogerm with one of your colonists. This will turn your colonist into a sanguophage.\n\nTo accept, select a colonist and right click on {PAWN_nameDef}.\n\nIf no colonists have claimed the reward in {DURATION}, the sanguophages will leave. -->
-  <LetterTextSanguophageWaitingToReimplant>{PAWN_nameDef}は,自分と仲間のサングオファージがここで会うことを許可してくれたことに感謝して,自身の異種胚のコピーを入植者の1人と共有することを喜んで提案しました.これによって入植者がサングオファージに変わります.\n\n受け入れる場合は入植者を選択し,{PAWN_nameDef}を右クリックしてください.\n\n入植者が{DURATION}以内に報酬を受け取らなかった場合,サングオファージはそのまま立ち去ります.</LetterTextSanguophageWaitingToReimplant>
+  <!-- EN: As thanks for allowing {PAWN_objective} and {PAWN_possessive} fellow sanguophages meet
+  here, {PAWN_nameDef} is willing to share a copy of {PAWN_possessive} xenogerm with one of your
+  colonists. This will turn your colonist into a sanguophage.\n\nTo accept, select a colonist and
+  right click on {PAWN_nameDef}.\n\nIf no colonists have claimed the reward in {DURATION}, the
+  sanguophages will leave. -->
+  <LetterTextSanguophageWaitingToReimplant>
+    {PAWN_nameDef}は,自分と仲間のサングオファージがここで会うことを許可してくれたことに感謝して,自身の異種胚のコピーを入植者の1人と共有することを喜んで提案しました.これによって入植者がサングオファージに変わります.\n\n受け入れる場合は入植者を選択し,{PAWN_nameDef}を右クリックしてください.\n\n入植者が{DURATION}以内に報酬を受け取らなかった場合,サングオファージはそのまま立ち去ります.</LetterTextSanguophageWaitingToReimplant>
 
   <!-- EN: Genes reimplanted -->
   <LetterLabelGenesImplanted>遺伝子再移植</LetterLabelGenesImplanted>
-  <!-- EN: {CASTER_nameDef} has implanted a copy of {CASTER_possessive} xenogerm into {TARGET_nameDef}, passing all xenogenes onto {TARGET_objective}.\n\n{TARGET_nameDef} will be in a xenogermination coma for the next {COMADURATION} while {TARGET_possessive} body adjusts to the changes.\n\n{CASTER_nameDef} will suffer from gene loss shock for the next {SHOCKDURATION}. {CASTER_possessive} genes will also need to regrow. This process takes time. If {CASTER_nameDef} implants {CASTER_possessive} xenogerm again before {CASTER_possessive} genes have regrown, {CASTER_pronoun} will die. -->
-  <LetterTextGenesImplanted>{CASTER_nameDef}は自分の異種胚のコピーを{TARGET_nameDef}に移植し,すべての異種遺伝子を{TARGET_pronoun}に渡しました.\n\n{TARGET_nameDef}は体が変化に順応する{COMADURATION}の間,異種胚による昏睡状態になります.\n\n{CASTER_nameDef}は{SHOCKDURATION}の間,遺伝子喪失ショックを受けます.また,遺伝子の再生も必要です.このプロセスには時間がかかります.もし{CASTER_nameDef}の遺伝子が再成長する前に再び異種胚を移植すると,{CASTER_pronoun}は死亡します.</LetterTextGenesImplanted>
-  
-  <!-- EN: A baby named {PAWN_nameDef} from {PAWN_factionName} is crashing in a transport pod nearby.\n\nYou may choose to adopt {PAWN_objective} with the 'adopt' command or ignore {PAWN_objective}. -->
-  <RefugeePodCrashBaby>{PAWN_factionName}の{PAWN_nameDef}という名の赤ん坊が,輸送ポッドで近くに墜落しました.\n\n'養子縁組'コマンドで{PAWN_objective}養子にするか,もしくは無視することを選べます.</RefugeePodCrashBaby>
-  <!-- EN: The body of {PAWN_nameDef}'s deceased parent is contained within the transport pod as well. -->
+  <!-- EN: {CASTER_nameDef} has implanted a copy of {CASTER_possessive} xenogerm into
+  {TARGET_nameDef}, passing all xenogenes onto {TARGET_objective}.\n\n{TARGET_nameDef} will be in a
+  xenogermination coma for the next {COMADURATION} while {TARGET_possessive} body adjusts to the
+  changes.\n\n{CASTER_nameDef} will suffer from gene loss shock for the next {SHOCKDURATION}.
+  {CASTER_possessive} genes will also need to regrow. This process takes time. If {CASTER_nameDef}
+  implants {CASTER_possessive} xenogerm again before {CASTER_possessive} genes have regrown,
+  {CASTER_pronoun} will die. -->
+  <LetterTextGenesImplanted>
+    {CASTER_nameDef}は自分の異種胚のコピーを{TARGET_nameDef}に移植し,すべての異種遺伝子を{TARGET_pronoun}に渡しました.\n\n{TARGET_nameDef}は体が変化に順応する{COMADURATION}の間,異種胚による昏睡状態になります.\n\n{CASTER_nameDef}は{SHOCKDURATION}の間,遺伝子喪失ショックを受けます.また,遺伝子の再生も必要です.このプロセスには時間がかかります.もし{CASTER_nameDef}の遺伝子が再成長する前に再び異種胚を移植すると,{CASTER_pronoun}は死亡します.</LetterTextGenesImplanted>
+
+  <!-- EN: A baby named {PAWN_nameDef} from {PAWN_factionName} is crashing in a transport pod
+  nearby.\n\nYou may choose to adopt {PAWN_objective} with the 'adopt' command or ignore
+  {PAWN_objective}. -->
+  <RefugeePodCrashBaby>
+    {PAWN_factionName}の{PAWN_nameDef}という名の赤ん坊が,輸送ポッドで近くに墜落しました.\n\n'養子縁組'コマンドで{PAWN_objective}養子にするか,もしくは無視することを選べます.</RefugeePodCrashBaby>
+  <!-- EN: The body of {PAWN_nameDef}'s deceased parent is contained within the transport pod as
+  well. -->
   <RefugeePodCrashBabyHasParent>{PAWN_nameDef}の亡くなった親の遺体も,輸送ポッド内に収容されています.</RefugeePodCrashBabyHasParent>
 
-  <!-- EN: Instinctively seeking a mate, {BONDPAWN_nameDef} has formed a psychically-bonded romantic relationship with {OTHERPAWN_nameDef}. {OTHERPAWN_nameDef} will benefit psychologically from the connection to {BONDPAWN_nameDef}, but if they are separated onto different world tiles, both will suffer from psychic stress. If one dies, the other will be driven to madness. -->
-  <LetterPsychicBondCreated>本能的に配偶者を探している{BONDPAWN_nameDef}は,{OTHERPAWN_nameDef}と精神的に結びついた恋愛関係を築きました.{OTHERPAWN_nameDef}は {BONDPAWN_nameDef}との絆から心理的な恩恵を受けますが,両者が別々のワールドタイルに分かれると,両者とも精神的ストレスに苦しむことになります.また,どちらか一方が死亡した場合,もう一方は狂気に追い込まれます.</LetterPsychicBondCreated>
+  <!-- EN: Instinctively seeking a mate, {BONDPAWN_nameDef} has formed a psychically-bonded romantic
+  relationship with {OTHERPAWN_nameDef}. {OTHERPAWN_nameDef} will benefit psychologically from the
+  connection to {BONDPAWN_nameDef}, but if they are separated onto different world tiles, both will
+  suffer from psychic stress. If one dies, the other will be driven to madness. -->
+  <LetterPsychicBondCreated>
+    本能的に配偶者を探している{BONDPAWN_nameDef}は,{OTHERPAWN_nameDef}と精神的に結びついた恋愛関係を築きました.{OTHERPAWN_nameDef}は
+    {BONDPAWN_nameDef}との絆から心理的な恩恵を受けますが,両者が別々のワールドタイルに分かれると,両者とも精神的ストレスに苦しむことになります.また,どちらか一方が死亡した場合,もう一方は狂気に追い込まれます.</LetterPsychicBondCreated>
 
   <!-- EN: Psychic bond -->
   <LetterPsychicBondCreatedLovinLabel>精神的絆</LetterPsychicBondCreatedLovinLabel>
-  <!-- EN: {BONDPAWN_nameDef} has formed a psychically-bonded romantic relationship with {OTHERPAWN_nameDef}. {OTHERPAWN_nameDef} will benefit psychologically from the connection to {BONDPAWN_nameDef}, but if they are separated onto different world tiles, both will suffer from psychic stress. If one dies, the other will be driven to madness. -->
-  <LetterPsychicBondCreatedLovinText>{BONDPAWN_nameDef}は,{OTHERPAWN_nameDef}と精神的に結びついた恋愛関係を築きました.{OTHERPAWN_nameDef}は{BONDPAWN_nameDef}との繋がりから心理的に恩恵を受けますが,別のワールドタイルに分かれると,両者とも精神的ストレスで苦しむことになります.また,どちらかが死ねば,もう一方は狂気に追い込まれます.</LetterPsychicBondCreatedLovinText>
+  <!-- EN: {BONDPAWN_nameDef} has formed a psychically-bonded romantic relationship with
+  {OTHERPAWN_nameDef}. {OTHERPAWN_nameDef} will benefit psychologically from the connection to
+  {BONDPAWN_nameDef}, but if they are separated onto different world tiles, both will suffer from
+  psychic stress. If one dies, the other will be driven to madness. -->
+  <LetterPsychicBondCreatedLovinText>
+    {BONDPAWN_nameDef}は,{OTHERPAWN_nameDef}と精神的に結びついた恋愛関係を築きました.{OTHERPAWN_nameDef}は{BONDPAWN_nameDef}との繋がりから心理的に恩恵を受けますが,別のワールドタイルに分かれると,両者とも精神的ストレスで苦しむことになります.また,どちらかが死ねば,もう一方は狂気に追い込まれます.</LetterPsychicBondCreatedLovinText>
 
 </LanguageData>

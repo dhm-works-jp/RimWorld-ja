@@ -59,7 +59,7 @@
   <!-- EN: This title requires a bedroom that meets these requirements:{1} -->
   <LetterRoyalTitleBedroomRequirements>この爵位には以下の要件を満たす寝室が必要です:{1}</LetterRoyalTitleBedroomRequirements>
   <!-- EN: This title says that {PAWN_pronoun} should only eat these foods:{1} -->
-  <LetterRoyalTitleFoodRequirements>この爵位では以下の食事のみ受けつけます:{1}</LetterRoyalTitleFoodRequirements>
+  <LetterRoyalTitleFoodRequirements>この爵位では{PAWN_pronoun}は以下の食事のみ受けつけます:{1}</LetterRoyalTitleFoodRequirements>
 
   <!-- EN: {PAWN_pronoun} will receive the following items via transport pod:{1} -->
   <LetterRoyalTitleRewardGranted>{PAWN_pronoun}はドロップポッドで以下のアイテムを受け取ります:{1}</LetterRoyalTitleRewardGranted>

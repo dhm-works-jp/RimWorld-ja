@@ -89,7 +89,6 @@
   <!-- EN: The death pall has resurrected {0_indefinite}. -->
   <DeathPallResurrectedMessage>死の帳が{0_indefinite}を蘇生しました.</DeathPallResurrectedMessage>
   
-  <!-- UNUSED -->
-  <AbilityCannotCastHoraxian>{0_nameDef}の進行度は揺るぎないものだ.</AbilityCannotCastHoraxian>
+  
 
 </LanguageData>
